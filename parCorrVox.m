@@ -81,6 +81,7 @@ else
 end
 
 % start permutations
+rng('shuffle');
 for n = 1:nPerms
     disp(['Permutation: ' num2str(n) ' of ' num2str(nPerms)])
     xp = x(randperm(length(x)));
