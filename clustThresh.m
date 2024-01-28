@@ -44,8 +44,9 @@ pcSurv = ncSurv./length(ccsSz);
 % setup outputs
 oSm = zeros(cl{1}.ImageSize);
 if ~isempty(surv)
-    [c,~,~] = intersect(ccs{surv},mid);
-    oSm(c) = s(c);
+    tmp = cat(1,ccs{surv});
+    [c,~,ib] = intersect(tmp,mid); % which surviving cluster indices overlap with mid
+    oSm(c) = s(ib); 
 else
     warning('No clusters survived correction!')
 end
