@@ -1,4 +1,4 @@
-function [oS,oP,ccl,cclMx,ccKp] = voxThresh(s,p,pType,thr,oSize,mid,ccKp)
+function [oS,oP,ccl,cclMx,ccKp] = voxThresh(s,p,pType,thr,oSize,mid,ccKp,tail)
 % Threshold voxelwise maps and extract their clusters as well as cluster
 % sizes
 % Inputs ----------------------------------------------------------------
@@ -23,9 +23,10 @@ function [oS,oP,ccl,cclMx,ccKp] = voxThresh(s,p,pType,thr,oSize,mid,ccKp)
 %   false
 %
 % Outputs ----------------------------------------------------------------
-% -oS is the thresholded image(s) 
-% -oP is the p-values (thresholded). These are
-%   maybe fdr-corrected depending on your setting for pType
+% -oS is the thresholded image(s). If ROI, will be ROI vector, otherwise
+%   image 
+% -oP is the p-values. These are maybe fdr-corrected depending on
+%   your setting for pType. If ROI will be ROI vector, otherwise image
 % -ccl is a cell array of cluster voxel identities for each image. The
 %   number of clusters in each image can vary
 % -cclMx is the maximum cluster size in each image
@@ -33,6 +34,15 @@ function [oS,oP,ccl,cclMx,ccKp] = voxThresh(s,p,pType,thr,oSize,mid,ccKp)
 % [oS,oP,ccl,cclMx] = voxThresh(s,p,pType,thr,oSize,mid)
 %
 % Alex Teghipco // alex.teghipco@sc.edu
+ccl = []; cclMx = []; cclKp = []; % if ROIs we won't do cluster identification....
+
+if strcmpi(tail,'pos')
+    id = find(s > 0);
+    p(id) = p(id)./2;
+elseif strcmpi(tail,'neg')
+    id = find(s < 0);
+    p(id) = p(id)./2;
+end
 
 switch pType
     case 'fdr'
@@ -41,10 +51,9 @@ switch pType
         end
 end
 
-oS = zeros([oSize size(p,2)]);
-oP = zeros([oSize size(p,2)]);
-
 if ~isempty(oSize)
+    oS = zeros([oSize size(p,2)]);
+    oP = zeros([oSize size(p,2)]);
     for i = 1:size(p,2)
         tmp = zeros(oSize);
         tmp(mid) = s(:,i);
@@ -56,7 +65,7 @@ if ~isempty(oSize)
 
     bmt = oP > thr;
     oS(bmt) = 0; % thresholded stats map
-    id = find(oS ~= 0);
+    id = oS ~= 0;
     tmp = zeros(size(oS));
     tmp(id) = 1; % binarized version
 
@@ -75,6 +84,12 @@ if ~isempty(oSize)
         end
     end
 else
+    oS = s;
+    oP = p;
+
+    id = find(oP < thr);
+    oS(id) = 0;
+
     ccl = [];
     cclMx = [];
 end
