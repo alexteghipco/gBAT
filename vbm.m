@@ -1,9 +1,5 @@
 function [oSv,oSm,oR,oP,oPth,oPthStd,ccIds,pcSurvPos,pcSurvNeg,cclMxPPos,cclMxPNeg] = vbm(x,y,m,z,aType,nPerms,pType,vThr,cThr,oSize,mid,sv,nrm,ext,par,tail)
-% Perform mediation analysis on brain data with permutation testing. Unlike
-% medVox this combines all elements of the training and testing pipeline
-% and ignores everything except cluster size during permutation. This might
-% make your analysis more feasible. It also introduces a few additional
-% options.
+% Perform VBM analysis on brain data with permutation testing or FDR correction
 %
 % Inputs ----------------------------------------------------------------
 % -x is a predictor variable (n x 1 where n is number of subjects)
