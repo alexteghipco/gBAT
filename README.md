@@ -1,4 +1,7 @@
 # basicVBM
+
+<img align="center" width="800" height="800" src="https://i.imgur.com/iS3jdzb.png">
+
 This is a tool with a GUI that might be able to help you perform some basic voxel based morphometry with correlation, partial correlation, distance correlation, partial distance correlation or mediation analysis (or to use these methods to relate any brain data to some behavioral measures). 
 
 To start, download this repository, open matlab, navigate to the your downloaded folder, and type vbmGui into the command window. This will summon the GUI. Please hover over buttons to see detailed information about what they do and how to use them.
