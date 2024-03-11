@@ -1,18 +1,27 @@
 # basicVBM
-These scripts may help you perform some basic voxel based morphometry with correlation, partial correlation, distance correlation, partial distance correlation or mediation analysis. They also support correction for cluster size with permutations and ROI-based analyses. See demo_start_here.m to get started (new demo, will add more details in a forthcoming update). Note, you will have to plug in and organize your own behavioral and imaging data for the demo for now but we do use a publicly available dataset and at some point will share a link to download the demo data.
+This is a tool with a GUI that might be able to help you perform some basic voxel based morphometry with correlation, partial correlation, distance correlation, partial distance correlation or mediation analysis (or to use these methods to relate any brain data to some behavioral measures). 
 
-Dependencies
-Please download the following packages/data and make sure they are in your MATLAB path: 
-  
-  1. Mediation toolbox from Tor Wager's lab: https://github.com/canlab/MediationToolbox
-      * we will rely on just  mediation.m and its associated functions
-  2. Auxillary functions for the mediation toolbox, which are part of the larger lab repo: https://github.com/canlab/CanlabCore
-  3. Check to make sure that you have the bioinformatics and image processing toolbox from matlab installed
-     * type ver into the command window, hit enter, and search for the toolbox
-     * we will use these for FDR correction and finding connected components (i.e., clusters) in images
-  4. If you plan to use distance correlation or partial distance correlation for VBM, download this package and make sure it is in your path: https://github.com/alexteghipco/partialDistanceCorrelation
-  5. The toolbox comes with a function for loading in brain data into matlab but you will need either SPM, matlab's image processing toolbox or freesurfer's matlab toolbox in your path
+To start, download this repository, open matlab, navigate to the your downloaded folder, and type vbmGui into the command window. This will summon the GUI. Please hover over buttons to see detailed information about what they do and how to use them.
 
+Some notes about usage. The GUI disables some buttons if you don't have the functions required to make them work. Depending on the kind of analysis you want to do, you'll need some of these other toolboxes in your path: 
+  1. For mediation analysis, the Mediation toolbox from Tor Wager's lab: https://github.com/canlab/MediationToolbox (we use their excellent      mediation.m function to perform the mediation analysis and someetimes do our own bootstrapping for significance)
+  2. You will need their bigger lab repo if you want to generate path diagrams and partial regression plots:
+     https://github.com/canlab/CanlabCore
 
+You may need some other MATLAB toolboxes depending on your use-case. For example, statistics and machine learning for correlation and partial correlation, Bioinformatics for FDR correction (always the original method), and imaging toolbox for loading in and writing nifti files to analyze. 
 
-
+Some warnings:
+  1. The GUI has been debugged for ROI-based analyses. Please see ./vbmHelpers for how your atlas information should be set up (see
+     rjhu.nii.gz and jhu.txt)
+  2. vbmGui tries to align your behavioral and brain data automatically but naming conventions vary between labs and projects. Please
+     ensure correct mapping (there will be some warnings that pop up). The attempt may file as it just looks for the first column of your
+     behavioral data and tries to find nifti files that contain that same string. In ties, it will go with the shortest file name.
+  4. Voxelwise analyses still need to be debugged in the GUI but you can use the old code from the demo_start_here.m to setup your own
+     analysis without a GUI. This should work, though there have been some changes to the structure of vbm.m that might break things (update
+     forthcoming).
+  6. If you ask vbmGui to generate brain figures it will take a bit of time. We use matlab's contour function to outline and plot each ROI
+     individually at the moment so it is a laborious process. Brain images are NOT generated using matlab's montager.m function as it lacks
+     some critical functionality.
+  8. Dependening on your analysis you may need a lot of RAM (for example, distance correlation, where we need to get euclidean distances
+     between all samples for many variables, but also mediation or if bootstrapping for any analysis is enabled).
+  9. An option is available to paralelize models being generated in vbm.m but this may backfire and make things slower if your data is high      dimensional (lots or ROIs or voxels)
