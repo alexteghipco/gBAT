@@ -10,6 +10,8 @@ Some notes about usage. The GUI disables some buttons if you don't have the func
 
 You may need some other MATLAB toolboxes depending on your use-case. For example, statistics and machine learning for correlation and partial correlation, Bioinformatics for FDR correction (always the original method), and imaging toolbox for loading in and writing nifti files to analyze. 
 
+vbmGui generates lots of files for you to look at that will be self-explanatory. If you want to apply a new p-value threhsold, you can use the outputs in your folder to generate new maps (provided you used FDR correction or no correction). To do this, see the supplemental files in ./postpro. This will also show you how to generate volume space brain images like vbmGui automatically does as part of its process. Finally, you can use atlasVol2Surf to copy a volume space result for ROIs within some atlas onto an existing surface space version of that atlas, converting your ROI result into surface space without having to individually project ROIs, etc.
+
 Some warnings:
   1. The GUI has been debugged for ROI-based analyses. Please see ./vbmHelpers for how your atlas information should be set up (see
      rjhu.nii.gz and jhu.txt)
