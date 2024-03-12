@@ -188,7 +188,11 @@ else
     id3 = [];
 end
 id4 = find(any(isnan(m), 2));
-id = unique([id1 id2 id3 id4]);
+try
+    id = unique([id1 id2 id3 id4]);
+catch
+    id = unique([id1; id2; id3; id4]);
+end
 x(id) = [];
 if ~isempty(y)
     y(id) = [];
