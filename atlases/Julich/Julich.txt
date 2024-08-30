@@ -1,0 +1,414 @@
+1||Left Area 3b (PostCG)|1
+3||Left Area PF (IPL)|1
+2||Left Area hOc4la (LOC)|1
+4||Left Area CoS1 (CoS)|1
+5||Left Astr (Amygdala)|1
+6||Left Area Id8 (Insula)|1
+7||Left Area SFG4 (SFG)|1
+8||Left Area 1 (PostCG)|1
+9||Left Po (Thalamus, posterior Nucleus)|1
+10||Left Area Te 1.0 (HESCHL)|1
+11||Left Area STS2 (STS)|1
+12||Left LD (Thalamus, lateral dorsal Nucleus)|1
+13||Left Area 6mp (SMA, mesial SFG)|1
+14||Left Area Id3 (Insula)|1
+15||Left ZI (Thalamus, zona incerta)|1
+16||Left CGM (Metathalamus)|1
+17||Left Area PirTB (PiriformCortexMesial, temporobasal)|1
+18||Left NRp (Midbrain, Nucleus Ruber, parvocellular part)|1
+21||Left Area TI (STG)|1
+20||Left Area p24ab (pACC)|1
+19||Left Area PFt (IPL)|1
+22||Left Area FG5 (FusG)|1
+24||Left PUi (Thalamus, inferior pulvinar)|1
+23||Left PUm (Thalamus, medial pulvinar)|1
+25||Left Area Te 3 (STG)|1
+27||Left Frontal-to-Occipital (GapMap)|1
+26||Left Area MFG1 (MFG)|1
+28||Left Area 7P (SPL)|1
+29||Left Area 6r1 (PreCG)|1
+30||Left Area 6d1 (PreCG)|1
+31||Left VA (Thalamus, ventral anterior Nucleus (ventral))|1
+32||Left Area hIP4 (IPS)|1
+33||Left Area Op6 (Frontal Operculum)|1
+34||Left Area FG2 (FusG)|1
+35||Left Area hIP6 (IPS)|1
+38||Left BST (Basal Forebrain, Bed Nucleus)|1
+37||Left Area TPJ (STG, SMG)|1
+36||Left Area Fo5 (OFC)|1
+39||Left AM (Thalamus, anteromedial Nucleus)|1
+40||Left Area Op7 (Frontal Operculum)|1
+41||Left Area hOc6 (POS)|1
+42||Left Area Ia3 (Insula)|1
+43||Left Area Ig2 (Insula)|1
+44||Left CA2 (Hippocampus)|1
+46||Left Area Fp2 (FPole)|1
+45||Left VLP (Thalamus, ventral lateral posterior Nucleus)|1
+47||Left Li (Thalamus, limitans Nucleus)|1
+48||Left Area EC (Hippocampal Region, Entorhinal Cortex)|1
+49||Left Area Id4 (Insula)|1
+51||Left Tu (Basal Forebrain, Tuberculum)|1
+50||Left Area Op1 (POperc)|1
+53||Left Area Id6 (Insula)|1
+52||Left Rt (Thalamus, reticular Nucleus)|1
+54||Left Area IFS4 (IFS)|1
+55||Left Area 6d3 (SFS)|1
+56||Left Ndentv (Cerebellum, Ventral Dentate Nucleus)|1
+57||Left Area 6v1 (PreCG)|1
+58||Left Area hIP2 (IPS)|1
+59||Left Area 44 (IFG)|1
+60||Left Area Fo7 (OFC)|1
+61||Left Pv (Thalamus, paraventricular Nucleus)|1
+62||Left Area PGa (IPL)|1
+63||Left PUa (Thalamus, anterior pulvinar)|1
+64||Left Area 8d2 (SFG)|1
+65||Left Area Ia1 (Insula)|1
+66||Left VTM (Amygdala)|1
+67||Left Area Op8 (Frontal Operculum)|1
+69||Left Area IFJ2 (IFS, PreCS)|1
+68||Left FuP (Ventral Striatum, Fundus of Putamen)|1
+71||Left Area 25 (sACC)|1
+70||Left Area 7M (SPL)|1
+73||Left Area PFm (IPL)|1
+72||Left Area Op5 (Frontal Operculum)|1
+74||Left MD (Thalamus, mediodorsal Nucleus)|1
+75||Left LB (Amygdala)|1
+76||Left Area 4a (PreCG)|1
+77||Left Area 5M (SPL)|1
+78||Left Area Op10 (Frontal Operculum)|1
+79||Left Pf (Thalamus, parafascicular Nucleus)|1
+80||Left Area Fp1 (FPole)|1
+81||Left PUl (Thalamus, lateral pulvinar)|1
+82||Left Area MFG2 (MFG)|1
+84||Left Area 3a (PostCG)|1
+83||Left Area Ph1 (PhG)|1
+86||Left Area Id7 (Insula)|1
+85||Left Area FG4 (FusG)|1
+87||Left Ninterp (Cerebellum, Interposed Nucleus)|1
+88||Left STN (Subthalamus)|1
+89||Left Area Fo6 (OFC)|1
+90||Left Area p32 (pACC)|1
+92||Left CGL (Metathalamus)|1
+91||Left Area hOc1 (V1, 17, CalcS)|1
+95||Left Area 8v1 (MFG)|1
+94||Left Area Ph3 (PhG)|1
+93||Left SNC (Midbrain, Substantia Nigra pars compacta)|1
+97||Left Area SFG2 (SFG)|1
+96||Left Area hOc4lp (LOC)|1
+98||Left Area Fo3 (OFC)|1
+99||Left Area Te 1.1 (HESCHL)|1
+100||Left Area MFG5 (MFG, IFG)|1
+101||Left Area hOc2 (V2, 18)|1
+102||Left Area MFG4 (MFG)|1
+103||Left LP (Thalamus, lateral posterior Nucleus)|1
+104||Left Area 6d2 (PreCG)|1
+105||Left Area Ig3 (Insula)|1
+106||Left Area hOc4d (Cuneus)|1
+107||Left Area SFG3 (SFG)|1
+108||Left Area 6v3 (PreCG)|1
+109||Left NRm (Midbrain, Nucleus Ruber, magnocellular part)|1
+110||Left Area Fo4 (OFC)|1
+111||Left Area IFS1 (IFS)|1
+112||Left Area Op4 (POperc)|1
+113||Left Ch 4 (Basal Forebrain)|1
+114||Left Area hPO1 (POS)|1
+115||Left Ndentd (Cerebellum, Dorsal Dentate Nucleus)|1
+116||Left Area IFS3 (IFS)|1
+117||Left Area Op2 (POperc)|1
+118||Left Area 8v2 (MFG)|1
+119||Left AcbM (Ventral Striatum, Medial Accumbens)|1
+120||Left DG (Hippocampus)|1
+121||Left Area PGp (IPL)|1
+122||Left Area 6ma (preSMA, mesial SFG)|1
+123||Left Area Ig1 (Insula)|1
+124||Left Area Id10 (Insula)|1
+125||Left VM (Thalamus, ventral medial Nucleus)|1
+126||Left Area p24c (pACC)|1
+127||Left Area hOc3v (LingG)|1
+128||Left Area PFcm (IPL)|1
+130||Left Area PirT (PiriformCortexMesial, temporal)|1
+129||Left Area SFS2 (SFS)|1
+132||Left Area hIP5 (IPS)|1
+131||Left CM (Thalamus, centromedian Nucleus)|1
+133||Left Area SFS1 (SFS)|1
+135||Left Frontal-to-Temporal-I (GapMap)|1
+134||Left Area FG1 (FusG)|1
+136||Left FuCd (Ventral Striatum, Fundus of Caudate Nucleus)|1
+138||Left MV (Thalamus, medioventral Nucleus)|1
+137||Left VAmc (Thalamus, ventral anterior Nucleus, magnocellular part)|1
+140||Left Frontal-I.2 (GapMap)|1
+139||Left Area hIP3 (IPS)|1
+141||Left CM (Amygdala)|1
+142||Left Area 4p (PreCG)|1
+143||Left Area 33 (ACC)|1
+144||Left Area OTS1 (OTS)|1
+145||Left Area Id2 (Insula)|1
+146||Left CA1 (Hippocampus)|1
+147||Left Frontal-I.1 (GapMap)|1
+148||Left Area hIP8 (IPS)|1
+150||Left Area Op9 (Frontal Operculum)|1
+149||Left IF (Amygdala)|1
+152||Left Temporal-to-Parietal (GapMap)|1
+151||Left VIM (Thalamus, ventral intermediate Nucleus)|1
+153||Left HATA (Hippocampus)|1
+154||Left TuTi (Basal Forebrain, Terminal islands)|1
+155||Left Area 45 (IFG)|1
+160||Left Area Id1 (Insula)|1
+159||Left Area Ia2 (Insula)|1
+158||Left Frontal-to-Temporal-II (GapMap)|1
+157||Left Area 5Ci (SPL)|1
+156||Left CL (Thalamus, anterior intralaminar nuclei)|1
+162||Left Area Id5 (Insula)|1
+161||Left Area Te 1.2 (HESCHL)|1
+163||Left Area hIP1 (IPS)|1
+164||Left Area 2 (PostCS)|1
+167||Left Area Te 2.1 (STG)|1
+166||Left Ch 123 (Basal Forebrain)|1
+165||Left Area hOc3d (Cuneus)|1
+171||Left Area Op3 (POperc)|1
+170||Left Area 7A (SPL)|1
+169||Left Sg (Thalamus, suprageniculate Nucleus)|1
+168||Left VPL (Thalamus, ventral posterior lateral Nucleus)|1
+172||Left Subc (Hippocampus, Subicular complex)|1
+173||Left TrS (Hippocampus, Transsubiculum)|1
+174||Left CA3 (Hippocampus)|1
+175||Left Frontal-II (GapMap)|1
+176||Left VLA (Thalamus, ventral lateral anterior Nucleus)|1
+177||Left Area STS1 (STS)|1
+180||Left Area Id9 (Insula)|1
+179||Left Area 5L (SPL)|1
+178||Left VPM (Thalamus, ventral posterior medial Nucleus)|1
+181||Left SNR (Midbrain, Substantia Nigra pars reticulata)|1
+183||Left Area IFS2 (IFS)|1
+182||Left Area FG3 (FusG)|1
+184||Left AV (Thalamus, anteroventral Nucleus)|1
+185||Left VP (Ventral Pallidum)|1
+187||Left Nfast (Cerebellum, Fastigial Nucleus)|1
+186||Left Area s32 (sACC)|1
+188||Left MF (Amygdala)|1
+189||Left Area hOc5 (LOC)|1
+190||Left sPf (Thalamus, subparafascicular Nucleus)|1
+192||Left Area Fo1 (OFC)|1
+191||Left SF (Amygdala)|1
+197||Left Area s24 (sACC)|1
+196||Left Area IFJ1 (IFS, PreCS)|1
+195||Left Area 8d1 (SFG)|1
+194||Left VPi (Thalamus, ventroposterior inferior Nucleus)|1
+193||Left VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part)|1
+199||Left Area PFop (IPL)|1
+198||Left Area hOc4v (LingG)|1
+201||Left Area Ph2 (PhG)|1
+200||Left Area 6v2 (PreCG)|1
+203||Left Area Fo2 (OFC)|1
+202||Left AcbL (Ventral Striatum, Lateral Accumbens)|1
+205||Left Area hIP7 (IPS)|1
+204||Left Area Te 2.2 (STG)|1
+206||Left Area 7PC (SPL)|1
+207||Left Area TeI (STG)|1
+208||Right Area 3b (PostCG)|1
+210||Right Area PF (IPL)|1
+209||Right Area hOc4la (LOC)|1
+211||Right Area CoS1 (CoS)|1
+212||Right Astr (Amygdala)|1
+213||Right Area Id8 (Insula)|1
+214||Right Area SFG4 (SFG)|1
+215||Right Area 1 (PostCG)|1
+216||Right Po (Thalamus, posterior Nucleus)|1
+217||Right Area Te 1.0 (HESCHL)|1
+218||Right Area STS2 (STS)|1
+219||Right LD (Thalamus, lateral dorsal Nucleus)|1
+220||Right Area 6mp (SMA, mesial SFG)|1
+221||Right Area Id3 (Insula)|1
+222||Right ZI (Thalamus, zona incerta)|1
+223||Right CGM (Metathalamus)|1
+224||Right Area PirTB (PiriformCortexMesial, temporobasal)|1
+225||Right NRp (Midbrain, Nucleus Ruber, parvocellular part)|1
+228||Right Area TI (STG)|1
+227||Right Area p24ab (pACC)|1
+226||Right Area PFt (IPL)|1
+229||Right Area FG5 (FusG)|1
+231||Right PUi (Thalamus, inferior pulvinar)|1
+230||Right PUm (Thalamus, medial pulvinar)|1
+232||Right Area Te 3 (STG)|1
+234||Right Frontal-to-Occipital (GapMap)|1
+233||Right Area MFG1 (MFG)|1
+235||Right Area 7P (SPL)|1
+236||Right Area 6r1 (PreCG)|1
+237||Right Area 6d1 (PreCG)|1
+238||Right VA (Thalamus, ventral anterior Nucleus (ventral))|1
+239||Right Area hIP4 (IPS)|1
+240||Right Area Op6 (Frontal Operculum)|1
+241||Right Area FG2 (FusG)|1
+242||Right Area hIP6 (IPS)|1
+245||Right BST (Basal Forebrain, Bed Nucleus)|1
+244||Right Area TPJ (STG, SMG)|1
+243||Right Area Fo5 (OFC)|1
+246||Right AM (Thalamus, anteromedial Nucleus)|1
+247||Right Area Op7 (Frontal Operculum)|1
+248||Right Area hOc6 (POS)|1
+249||Right Area Ia3 (Insula)|1
+250||Right Area Ig2 (Insula)|1
+251||Right CA2 (Hippocampus)|1
+253||Right Area Fp2 (FPole)|1
+252||Right VLP (Thalamus, ventral lateral posterior Nucleus)|1
+254||Right Li (Thalamus, limitans Nucleus)|1
+255||Right Area EC (Hippocampal Region, Entorhinal Cortex)|1
+256||Right Area Id4 (Insula)|1
+258||Right Tu (Basal Forebrain, Tuberculum)|1
+257||Right Area Op1 (POperc)|1
+260||Right Area Id6 (Insula)|1
+259||Right Rt (Thalamus, reticular Nucleus)|1
+261||Right Area IFS4 (IFS)|1
+262||Right Area 6d3 (SFS)|1
+263||Right Ndentv (Cerebellum, Ventral Dentate Nucleus)|1
+264||Right Area 6v1 (PreCG)|1
+265||Right Area hIP2 (IPS)|1
+266||Right Area 44 (IFG)|1
+267||Right Area Fo7 (OFC)|1
+268||Right Pv (Thalamus, paraventricular Nucleus)|1
+269||Right Area PGa (IPL)|1
+270||Right PUa (Thalamus, anterior pulvinar)|1
+271||Right Area 8d2 (SFG)|1
+272||Right Area Ia1 (Insula)|1
+273||Right VTM (Amygdala)|1
+274||Right Area Op8 (Frontal Operculum)|1
+276||Right Area IFJ2 (IFS, PreCS)|1
+275||Right FuP (Ventral Striatum, Fundus of Putamen)|1
+278||Right Area 25 (sACC)|1
+277||Right Area 7M (SPL)|1
+280||Right Area PFm (IPL)|1
+279||Right Area Op5 (Frontal Operculum)|1
+281||Right MD (Thalamus, mediodorsal Nucleus)|1
+282||Right LB (Amygdala)|1
+283||Right Area 4a (PreCG)|1
+284||Right Area 5M (SPL)|1
+285||Right Area Op10 (Frontal Operculum)|1
+286||Right Pf (Thalamus, parafascicular Nucleus)|1
+287||Right Area Fp1 (FPole)|1
+288||Right PUl (Thalamus, lateral pulvinar)|1
+289||Right Area MFG2 (MFG)|1
+291||Right Area 3a (PostCG)|1
+290||Right Area Ph1 (PhG)|1
+293||Right Area Id7 (Insula)|1
+292||Right Area FG4 (FusG)|1
+294||Right Ninterp (Cerebellum, Interposed Nucleus)|1
+295||Right STN (Subthalamus)|1
+296||Right Area Fo6 (OFC)|1
+297||Right Area p32 (pACC)|1
+299||Right CGL (Metathalamus)|1
+298||Right Area hOc1 (V1, 17, CalcS)|1
+302||Right Area 8v1 (MFG)|1
+301||Right Area Ph3 (PhG)|1
+300||Right SNC (Midbrain, Substantia Nigra pars compacta)|1
+304||Right Area SFG2 (SFG)|1
+303||Right Area hOc4lp (LOC)|1
+305||Right Area Fo3 (OFC)|1
+306||Right Area Te 1.1 (HESCHL)|1
+307||Right Area MFG5 (MFG, IFG)|1
+308||Right Area hOc2 (V2, 18)|1
+309||Right Area MFG4 (MFG)|1
+310||Right LP (Thalamus, lateral posterior Nucleus)|1
+311||Right Area 6d2 (PreCG)|1
+312||Right Area Ig3 (Insula)|1
+313||Right Area hOc4d (Cuneus)|1
+314||Right Area SFG3 (SFG)|1
+315||Right Area 6v3 (PreCG)|1
+316||Right NRm (Midbrain, Nucleus Ruber, magnocellular part)|1
+317||Right Area Fo4 (OFC)|1
+318||Right Area IFS1 (IFS)|1
+319||Right Area Op4 (POperc)|1
+320||Right Ch 4 (Basal Forebrain)|1
+321||Right Area hPO1 (POS)|1
+322||Right Ndentd (Cerebellum, Dorsal Dentate Nucleus)|1
+323||Right Area IFS3 (IFS)|1
+324||Right Area Op2 (POperc)|1
+325||Right Area 8v2 (MFG)|1
+326||Right AcbM (Ventral Striatum, Medial Accumbens)|1
+327||Right DG (Hippocampus)|1
+328||Right Area PGp (IPL)|1
+329||Right Area 6ma (preSMA, mesial SFG)|1
+330||Right Area Ig1 (Insula)|1
+331||Right Area Id10 (Insula)|1
+332||Right VM (Thalamus, ventral medial Nucleus)|1
+333||Right Area p24c (pACC)|1
+334||Right Area hOc3v (LingG)|1
+335||Right Area PFcm (IPL)|1
+337||Right Area PirT (PiriformCortexMesial, temporal)|1
+336||Right Area SFS2 (SFS)|1
+339||Right Area hIP5 (IPS)|1
+338||Right CM (Thalamus, centromedian Nucleus)|1
+340||Right Area SFS1 (SFS)|1
+342||Right Frontal-to-Temporal-I (GapMap)|1
+341||Right Area FG1 (FusG)|1
+343||Right FuCd (Ventral Striatum, Fundus of Caudate Nucleus)|1
+345||Right MV (Thalamus, medioventral Nucleus)|1
+344||Right VAmc (Thalamus, ventral anterior Nucleus, magnocellular part)|1
+347||Right Frontal-I.2 (GapMap)|1
+346||Right Area hIP3 (IPS)|1
+348||Right CM (Amygdala)|1
+349||Right Area 4p (PreCG)|1
+350||Right Area 33 (ACC)|1
+351||Right Area OTS1 (OTS)|1
+352||Right Area Id2 (Insula)|1
+353||Right CA1 (Hippocampus)|1
+354||Right Frontal-I.1 (GapMap)|1
+355||Right Area hIP8 (IPS)|1
+357||Right Area Op9 (Frontal Operculum)|1
+356||Right IF (Amygdala)|1
+359||Right Temporal-to-Parietal (GapMap)|1
+358||Right VIM (Thalamus, ventral intermediate Nucleus)|1
+360||Right HATA (Hippocampus)|1
+361||Right TuTi (Basal Forebrain, Terminal islands)|1
+362||Right Area 45 (IFG)|1
+367||Right Area Id1 (Insula)|1
+366||Right Area Ia2 (Insula)|1
+365||Right Frontal-to-Temporal-II (GapMap)|1
+364||Right Area 5Ci (SPL)|1
+363||Right CL (Thalamus, anterior intralaminar nuclei)|1
+369||Right Area Id5 (Insula)|1
+368||Right Area Te 1.2 (HESCHL)|1
+370||Right Area hIP1 (IPS)|1
+371||Right Area 2 (PostCS)|1
+374||Right Area Te 2.1 (STG)|1
+373||Right Ch 123 (Basal Forebrain)|1
+372||Right Area hOc3d (Cuneus)|1
+378||Right Area Op3 (POperc)|1
+377||Right Area 7A (SPL)|1
+376||Right Sg (Thalamus, suprageniculate Nucleus)|1
+375||Right VPL (Thalamus, ventral posterior lateral Nucleus)|1
+379||Right Subc (Hippocampus, Subicular complex)|1
+380||Right TrS (Hippocampus, Transsubiculum)|1
+381||Right CA3 (Hippocampus)|1
+382||Right Frontal-II (GapMap)|1
+383||Right VLA (Thalamus, ventral lateral anterior Nucleus)|1
+384||Right Area STS1 (STS)|1
+387||Right Area Id9 (Insula)|1
+386||Right Area 5L (SPL)|1
+385||Right VPM (Thalamus, ventral posterior medial Nucleus)|1
+388||Right SNR (Midbrain, Substantia Nigra pars reticulata)|1
+390||Right Area IFS2 (IFS)|1
+389||Right Area FG3 (FusG)|1
+391||Right AV (Thalamus, anteroventral Nucleus)|1
+392||Right VP (Ventral Pallidum)|1
+394||Right Nfast (Cerebellum, Fastigial Nucleus)|1
+393||Right Area s32 (sACC)|1
+395||Right MF (Amygdala)|1
+396||Right Area hOc5 (LOC)|1
+397||Right sPf (Thalamus, subparafascicular Nucleus)|1
+399||Right Area Fo1 (OFC)|1
+398||Right SF (Amygdala)|1
+404||Right Area s24 (sACC)|1
+403||Right Area IFJ1 (IFS, PreCS)|1
+402||Right Area 8d1 (SFG)|1
+401||Right VPi (Thalamus, ventroposterior inferior Nucleus)|1
+400||Right VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part)|1
+406||Right Area PFop (IPL)|1
+405||Right Area hOc4v (LingG)|1
+408||Right Area Ph2 (PhG)|1
+407||Right Area 6v2 (PreCG)|1
+410||Right Area Fo2 (OFC)|1
+409||Right AcbL (Ventral Striatum, Lateral Accumbens)|1
+412||Right Area hIP7 (IPS)|1
+411||Right Area Te 2.2 (STG)|1
+413||Right Area 7PC (SPL)|1
+414||Right Area TeI (STG)|1

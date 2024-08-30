@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GIFTI SYSTEM "http://www.nitrc.org/frs/download.php/115/gifti.dtd">
+<GIFTI Version="1.0"  NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[D:\Science\Matlab\GitHub\brainSurfer\scripts\HCP\resample_fsaverage\fs_LR-deformed_to-fsaverage.L.sphere.32k_fs_LR.surf.gii: wb_command -surface-sphere-project-unproject /media/myelin/tim/pipelinedevel/Pipelines/global/templates/standard_mesh_atlases/L.sphere.32k_fs_LR.surf.gii /media/myelin/tim/vertareascratch/data/base.sphere.surf.gii /media/myelin/tim/vertareascratch/data/MSMAll-to-fsaverage.L.sphere.surf.gii /media/myelin/tim/pipelinedevel/Pipelines/global/templates/standard_mesh_atlases/fs_LR-deformed_to-fsaverage.L.sphere.32k_fs_LR.surf.gii ]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench Type: Command Line Application Version: 1.5.0 Qt Compiled Version: 5.7.0 Qt Runtime Version: 5.7.0 Commit: 76441605d20536d81034a64c9d34ec393aa528b9 Commit Date: 2021-02-16 13:46:47 -0600 Compiled with OpenMP: YES Compiler: cl.exe (C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64) Compiler Version: 19.0.24215.1 Compiled Debug: NO Operating System: Windows ]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[C:\workbench\bin_windows64\wb_command -label-resample D:\Science\Matlab\GitHub\brainSurfer\atlases\jhu_resampled_to_FSL_fixed_noWM_CombinedClusters_FSSpace_LH.nii.gii D:\Science\Matlab\GitHub\brainSurfer\scripts\HCP\resample_fsaverage\fsaverage_std_sphere.L.164k_fsavg_L.surf.gii D:\Science\Matlab\GitHub\brainSurfer\scripts\HCP\resample_fsaverage\fs_LR-deformed_to-fsaverage.L.sphere.32k_fs_LR.surf.gii ADAP_BARY_AREA D:\Science\Matlab\GitHub\brainSurfer\atlases\jhu_resampled_to_FSL_fixed_noWM_CombinedClusters_FSSpace_LH.nii_to_fs_LR.label.gii -area-metrics D:\Science\Matlab\GitHub\brainSurfer\scripts\HCP\resample_fsaverage\fsaverage.L.midthickness_va_avg.164k_fsavg_L.shape.gii D:\Science\Matlab\GitHub\brainSurfer\scripts\HCP\resample_fsaverage\fs_LR.L.midthickness_va_avg.32k_fs_LR.shape.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[C:/Users/alext/Downloads/MASTER_FILES_08_2019/P1_models/Examples]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1.000000" Green="1.000000" Blue="1.000000" Alpha="0.000000"><![CDATA[???]]></Label>
+   </LabelTable>
+   <DataArray  ArrayIndexingOrder="ColumnMajorOrder"
+               DataType="NIFTI_TYPE_INT32"
+               Dim0="163842"
+               Dimensionality="1"
+               Encoding="ExternalFileBinary"
+               Endian="LittleEndian"
+               ExternalFileName="rh.JulichBrainAtlas_3.1.label_fixed2.dat"
+               ExternalFileOffset="0"
+               Intent="NIFTI_INTENT_LABEL">
+      <MetaData>
+         <MD>
+            <Name><![CDATA[Name]]></Name>
+            <Value><![CDATA[deformed_Atlas_Cortex_ROI]]></Value>
+         </MD>
+      </MetaData>
+      <Data></Data>
+   </DataArray>
+</GIFTI>
