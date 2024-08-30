@@ -1,0 +1,21 @@
+97||Left Cerebral White Matter|3
+98||Left Cerebral Cortex|1
+99||Left Lateral Ventricle|1
+100||Left Thalamus|2
+101||Left Caudate|2
+102||Left Putamen|3
+103||Left Pallidum|3
+104||Brain-Stem|3
+105||Left Hippocampus|2
+106||Left Amygdala|2
+107||Left Accumbens|2
+108||Right Cerebral White Matter|3
+109||Right Cerebral Cortex|1
+110||Right Lateral Ventricle|1
+111||Right Thalamus|2
+112||Right Caudate|2
+113||Right Putamen|3
+114||Right Pallidum|3
+115||Right Hippocampus|2
+116||Right Amygdala|2
+117||Right Accumbens|2

@@ -1,0 +1,117 @@
+1||Left Frontal Pole|2
+2||Left Insular Cortex|2
+3||Left Superior Frontal Gyrus|2
+4||Left Middle Frontal Gyrus|2
+5||Left Inferior Frontal Gyrus, pars triangularis|2
+6||Left Inferior Frontal Gyrus, pars opercularis|2
+7||Left Precentral Gyrus|2
+8||Left Temporal Pole|2
+9||Left Superior Temporal Gyrus, anterior division|2
+10||Left Superior Temporal Gyrus, posterior division|2
+11||Left Middle Temporal Gyrus, anterior division|2
+12||Left Middle Temporal Gyrus, posterior division|2
+13||Left Middle Temporal Gyrus, temporooccipital part|2
+14||Left Inferior Temporal Gyrus, anterior division|2
+15||Left Inferior Temporal Gyrus, posterior division|2
+16||Left Inferior Temporal Gyrus, temporooccipital part|2
+17||Left Postcentral Gyrus|2
+18||Left Superior Parietal Lobule|2
+19||Left Supramarginal Gyrus, anterior division|2
+20||Left Supramarginal Gyrus, posterior division|2
+21||Left Angular Gyrus|2
+22||Left Lateral Occipital Cortex, superior division|2
+23||Left Lateral Occipital Cortex, inferior division|2
+24||Left Intracalcarine Cortex|2
+25||Left Frontal Medial Cortex|2
+26||Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)|2
+27||Left Subcallosal Cortex|2
+28||Left Paracingulate Gyrus|2
+29||Left Cingulate Gyrus, anterior division|1
+30||Left Cingulate Gyrus, posterior division|2
+31||Left Precuneous Cortex|2
+32||Left Cuneal Cortex|2
+33||Left Frontal Orbital Cortex|2
+34||Left Parahippocampal Gyrus, anterior division|2
+35||Left Parahippocampal Gyrus, posterior division|2
+36||Left Lingual Gyrus|2
+37||Left Temporal Fusiform Cortex, anterior division|2
+38||Left Temporal Fusiform Cortex, posterior division|2
+39||Left Temporal Occipital Fusiform Cortex|2
+40||Left Occipital Fusiform Gyrus|2
+41||Left Frontal Operculum Cortex|2
+42||Left Central Opercular Cortex|2
+43||Left Parietal Operculum Cortex|2
+44||Left Planum Polare|2
+45||Left Heschl's Gyrus (includes H1 and H2)|2
+46||Left Planum Temporale|2
+47||Left Supracalcarine Cortex|2
+48||Left Occipital Pole|2
+49||Right Frontal Pole|2
+50||Right Insular Cortex|2
+51||Right Superior Frontal Gyrus|2
+52||Right Middle Frontal Gyrus|2
+53||Right Inferior Frontal Gyrus, pars triangularis|2
+54||Right Inferior Frontal Gyrus, pars opercularis|2
+55||Right Precentral Gyrus|2
+56||Right Temporal Pole|2
+57||Right Superior Temporal Gyrus, anterior division|2
+58||Right Superior Temporal Gyrus, posterior division|2
+59||Right Middle Temporal Gyrus, anterior division|2
+60||Right Middle Temporal Gyrus, posterior division|2
+61||Right Middle Temporal Gyrus, temporooccipital part|2
+62||Right Inferior Temporal Gyrus, anterior division|2
+63||Right Inferior Temporal Gyrus, posterior division|2
+64||Right Inferior Temporal Gyrus, temporooccipital part|2
+65||Right Postcentral Gyrus|2
+66||Right Superior Parietal Lobule|2
+67||Right Supramarginal Gyrus, anterior division|2
+68||Right Supramarginal Gyrus, posterior division|2
+69||Right Angular Gyrus|2
+70||Right Lateral Occipital Cortex, superior division|2
+71||Right Lateral Occipital Cortex, inferior division|2
+72||Right Intracalcarine Cortex|2
+73||Right Frontal Medial Cortex|1
+74||Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)|2
+75||Right Subcallosal Cortex|2
+76||Right Paracingulate Gyrus|1
+77||Right Cingulate Gyrus, anterior division|2
+78||Right Cingulate Gyrus, posterior division|2
+79||Right Precuneous Cortex|2
+80||Right Cuneal Cortex|2
+81||Right Frontal Orbital Cortex|2
+82||Right Parahippocampal Gyrus, anterior division|2
+83||Right Parahippocampal Gyrus, posterior division|2
+84||Right Lingual Gyrus|2
+85||Right Temporal Fusiform Cortex, anterior division|2
+86||Right Temporal Fusiform Cortex, posterior division|2
+87||Right Temporal Occipital Fusiform Cortex|2
+88||Right Occipital Fusiform Gyrus|2
+89||Right Frontal Operculum Cortex|2
+90||Right Central Opercular Cortex|2
+91||Right Parietal Operculum Cortex|2
+92||Right Planum Polare|2
+93||Right Heschl's Gyrus (includes H1 and H2)|2
+94||Right Planum Temporale|2
+95||Right Supracalcarine Cortex|2
+96||Right Occipital Pole|3
+97||Left Cerebral White Matter|3
+98||Left Cerebral Cortex|1
+99||Left Lateral Ventricle|1
+100||Left Thalamus|2
+101||Left Caudate|2
+102||Left Putamen|3
+103||Left Pallidum|3
+104||Brain-Stem|3
+105||Left Hippocampus|2
+106||Left Amygdala|2
+107||Left Accumbens|2
+108||Right Cerebral White Matter|3
+109||Right Cerebral Cortex|1
+110||Right Lateral Ventricle|1
+111||Right Thalamus|2
+112||Right Caudate|2
+113||Right Putamen|3
+114||Right Pallidum|3
+115||Right Hippocampus|2
+116||Right Amygdala|2
+117||Right Accumbens|2
