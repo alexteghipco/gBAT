@@ -31,7 +31,7 @@ elseif strcmpi(aType,'mediation')
     [~, stats] = mediation(xSample, ySample, mSample,ext{:});
     % if medCoeff
         %oR = stats.paths(cK);
-    oR = stats.paths;
+    oR = stats.mean;
     % else
     %     if isfield(stats,'t')
     %         oR = stats.t(cK);
