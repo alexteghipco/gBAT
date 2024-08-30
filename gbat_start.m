@@ -1,4 +1,4 @@
-function [oSv,oSm,oR,oRm,oP,oPc,oPm,oPcm,oPth,oPall,oPthStd,oPthm,oPallm,oPthStdm,ccIds,pcSurvPos,pcSurvNeg,cclMxPPos,cclMxPNeg,oT] = vbm(x,y,m,z,aType,nPerms,pType,vThr,cThr,oSize,mid,sv,nrm,ext,par,tail,boot,nBoot)
+function [oSv,oSm,oR,oRm,oP,oPc,oPm,oPcm,oPth,oPall,oPthStd,oPthm,oPallm,oPthStdm,ccIds,pcSurvPos,pcSurvNeg,cclMxPPos,cclMxPNeg,oT] = gbat_start(x,y,m,z,aType,nPerms,pType,vThr,cThr,oSize,mid,sv,nrm,ext,par,tail,boot,nBoot)
 % Perform VBM analysis on brain data with permutation testing or FDR correction
 %
 % Inputs ----------------------------------------------------------------
@@ -116,10 +116,12 @@ end
 
 if genPlot
     tmp = which('mediation_scatterplots.m');
-    oF = [pwd filesep 'temporaryFolderForMediationFigs'];
-    mkdir(oF)
-    if isempty(tmp)
+    tmp2 = which('create_figure.m');
+    if isempty(tmp) | isempty(tmp2)
         error('It looks like you want to generate mediation plots but you do not have the main CANLab-core repo for the necessary functions. Please add this to your matlab path or remove the plots argument')
+    else
+        oF = [pwd filesep 'temporaryFolderForMediationFigs'];
+        mkdir(oF)
     end
 end
 
@@ -221,7 +223,7 @@ end
 if ~isempty(z) && strcmpi(aType,'mediation')
     if contains(ext,'boot') & boot
         boot = false;
-        warning('You cannot turn on bootstrapping inside mediation.m (bias corrected) and perform our bootstrapping in vbm (uncorrected). Turning off our bootstrapping in vbm.')
+        warning('You cannot turn on bootstrapping inside mediation.m (bias corrected) and perform our bootstrapping in vbm (uncorrected). Turning off our bootstrapping.')
     end
     ext = [ext,{'covs',z}];
 end
@@ -232,7 +234,7 @@ if par
     dq = parallel.pool.DataQueue;
     afterEach(dq, @updateWaitbar);
 end
-h = waitbar(0, 'vbm.m is working on true data...'); 
+h = waitbar(0, 'analyzing data...'); 
 
 % no loops for linear correlations
 if inFor
@@ -273,7 +275,7 @@ if par
                     case 'mediation'
                         [~, stats] = mediation(x, y, m(:,i),ext{:});
                         % if medCoeff
-                             oR(i,:) = stats.paths(cK);
+                             oR(i,:) = stats.mean(cK);
                         % else
                         if isfield(stats,'t')
                             oT(i,:) = stats.t(cK);
@@ -281,7 +283,7 @@ if par
                             oT(i,:) = stats.z(cK);
                         end
                         % end
-                        oPth(i,:) = stats.paths;
+                        oPth(i,:) = stats.mean;
                         oPthStd(i,:) = stats.stdpaths;
                         oPall(i,:) = stats.p
                         oP(i,:) = stats.p(cK);
@@ -333,7 +335,7 @@ else
                     end
 
                     % if medCoeff
-                         oR(i,:) = stats.paths(cK);
+                         oR(i,:) = stats.mean(cK);
                     % else
                     if isfield(stats,'t')
                         oT(i,:) = stats.t(cK);
@@ -342,7 +344,7 @@ else
                     end
                     % end
 
-                    oPth(i,:) = stats.paths;
+                    oPth(i,:) = stats.mean;
                     oPthStd(i,:) = stats.stdpaths;
                     oP(i,:) = stats.p(cK);
                     oPall(i,:) = stats.p;
@@ -519,7 +521,7 @@ if ~strcmpi(pType,'fdr') && nPerms > 0
                         case 'mediation'
                             [~, stats] = mediation(xp, y, m(:,i),ext{:});
                             % if medCoeff
-                                 oRP(i,1) = stats.paths(cK);
+                                 oRP(i,1) = stats.mean(cK);
                             % else
                             if isfield(stats,'t')
                                 oTP(i,1) = stats.t(cK);
@@ -551,7 +553,7 @@ if ~strcmpi(pType,'fdr') && nPerms > 0
                     switch aType
                         case 'mediation'
                             % if medCoeff
-                                 oRP(i,1) = stats.paths(cK);
+                                 oRP(i,1) = stats.mean(cK);
                             % else
                             % if isfield(stats,'t')
                             %     oRP(i,1) = stats.t(cK);
