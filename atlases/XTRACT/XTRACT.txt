@@ -1,0 +1,42 @@
+1||Anterior Commissure|2
+2||Arcuate Fasciculus L|2
+3||Arcuate Fasciculus R|2
+4||Acoustic Radiation L|2
+5||Acoustic Radiation R|2
+6||Anterior Thalamic Radiation L|2
+7||Anterior Thalamic Radiation R|2
+8||Cingulum subsection: Dorsal L|2
+9||Cingulum subsection: Dorsal R|2
+10||Cingulum subsection: Peri-genual L|2
+11||Cingulum subsection: Peri-genual R|2
+12||Cingulum subsection: Temporal L|2
+13||Cingulum subsection: Temporal R|2
+14||Corticospinal Tract L|2
+15||Corticospinal Tract R|2
+16||Frontal Aslant Tract L|2
+17||Frontal Aslant Tract R|2
+18||Forceps Major|2
+19||Forceps Minor|2
+20||Fornix L|2
+21||Fornix R|2
+22||Inferior Fronto-Occipital Fasciculus L|2
+23||Inferior Fronto-Occipital Fasciculus R|2
+24||Inferior Longitudinal Fasciculus L|2
+25||Inferior Longitudinal Fasciculus R|2
+26||Middle Cerebellar Peduncle|2
+27||Middle Longitudinal Fasciculus L|2
+28||Middle Longitudinal Fasciculus R|2
+29||Optic Radiation L|2
+30||Optic Radiation R|2
+31||Superior Longitudinal Fasciculus 1 L|2
+32||Superior Longitudinal Fasciculus 1 R|2
+33||Superior Longitudinal Fasciculus 2 L|2
+34||Superior Longitudinal Fasciculus 2 R|2
+35||Superior Longitudinal Fasciculus 3 L|2
+36||Superior Longitudinal Fasciculus 3 R|2
+37||Superior Thalamic Radiation L|2
+38||Superior Thalamic Radiation R|2
+39||Uncinate Fasciculus L|2
+40||Uncinate Fasciculus R|2
+41||Vertical Occipital Fasciculus L|2
+42||Vertical Occipital Fasciculus R|2
