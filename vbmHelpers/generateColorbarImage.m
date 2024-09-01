@@ -5,7 +5,8 @@ function generateColorbarImage(colormapName, numBins, limits, inv)
     % limits: colorbar limits
     % inv: if true, colorbar will be inverted: default false
 
-    cmap = colormap(colormapName);
+    [cmap,~,~,~,~] = colormapper(ones([numBins],1),'colorBins',numBins,'colormap',colormapName,'limits',limits,'invertColors',inv);
+    %cmap = colormap(colormapName);
     cmap = cmap(round(linspace(1, size(cmap, 1), numBins)), :);
     if inv
         cmap = flipud(cmap);
