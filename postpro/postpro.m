@@ -1,7 +1,18 @@
-function oNm = postpro(inCoeff,inP,pthresh,fdr,tail,montageUnderlay,gmThresh,anTail,atPth,inLim)
-% requires load_nifti.m
-% tail does NOT halve p-values at the moment, only removes positive or
-% negative values
+function oNm = postpro(inCoeff,inP,pthresh,tail,montageUnderlay,gmThresh,anTail,atPth,inLim,fdr)
+% inCoeff: stats map file path
+% inP: p map file path
+% pThresh: p-value threshold
+% tail: 'neg' or 'pos' to only keep negative or positive values during
+% plotting
+% montageUnderlay: if an underlay file path is supplied, will create plots.
+% Otherwise can keep this as empty
+% gmThresh: threshold for underlay for visualization
+% anTail: tail used during analysis
+% atPth: path to atlas
+% inLim: limits for overaly (stats map)
+% fdr: if true will fdr correct.
+% requires load_nifti.m (e.g., brainSurfer)
+
 cin = load_nifti(inCoeff);
 pin = load_nifti(inP);
 
